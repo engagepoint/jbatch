@@ -3,7 +3,7 @@
     <parent>
         <groupId>javax.batch</groupId>
         <artifactId>jbatch</artifactId>
-        <version>1.0</version>
+        <version>1.0-EP</version>
     </parent>
     <groupId>javax.batch</groupId>
     <artifactId>javax.batch-api</artifactId>

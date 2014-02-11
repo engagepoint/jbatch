@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>javax.batch</groupId>
   <artifactId>javax.batch-api-all</artifactId>
-  <version>1.0</version>
+  <version>1.0-EP</version>
   <build>
     <plugins>
       <plugin>

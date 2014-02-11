@@ -87,20 +87,20 @@ public class BatchTransactionServiceImpl implements ITransactionManagementServic
         TransactionManagerAdapter transactionManager = null;
 
         // get the JTA tran manager if we are in Java EE
-        if (! this.batchConfig.isJ2seMode()) {
+   /*     if (! this.batchConfig.isJ2seMode()) {
             // use the container JNDI java:comp/UserTransaction
             logger.fine("getting transaction object from JNDI java:comp/UserTransaction");
             transactionManager = new JTAUserTransactionAdapter("java:comp/UserTransaction");
-        } 
+        }
         else if (this.batchConfig.isJ2seMode()) { 
         // If we are in J2SE mode use the non-transactional manager
         
             // java environment is Java SE
             // NoOp transaction manager
             logger.fine("J2SE mode non-transactional manager");
-            transactionManager = new DefaultNonTransactionalManager();
-        }
 
+        } */
+        transactionManager = new DefaultNonTransactionalManager();
 
         int timeout = getTransactionTimeout(stepContext);
         logger.log(Level.FINE, "transaction timeout {0}", timeout);

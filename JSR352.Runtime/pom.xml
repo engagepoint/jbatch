@@ -3,12 +3,12 @@
     <parent>
         <groupId>javax.batch</groupId>
         <artifactId>jbatch</artifactId>
-        <version>1.0</version>
+        <version>1.0-EP</version>
     </parent>
     <groupId>com.ibm.jbatch</groupId>
     <artifactId>com.ibm.jbatch-runtime</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.0-EP</version>
 	<dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -25,13 +25,13 @@
 		<dependency>
 			<groupId>com.ibm.jbatch</groupId>
 			<artifactId>com.ibm.jbatch-model</artifactId>
-			<version>1.0</version>
+			<version>1.0-EP</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.ibm.jbatch</groupId>
 			<artifactId>com.ibm.jbatch-ri-spi</artifactId>
-			<version>1.0</version>
+			<version>1.0-EP</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
